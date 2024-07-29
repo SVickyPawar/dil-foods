@@ -48,7 +48,7 @@ const ProductCard = ({ products }) => {
             }}>
               <div>
                 <Typography variant="h6">{product.name}</Typography>
-                <Typography variant="h6">${product.price}</Typography>
+                <Typography variant="h6">{product.price}</Typography>
               </div>
               <Box 
                 sx={{ 
